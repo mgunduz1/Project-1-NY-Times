@@ -22,7 +22,7 @@ h6 {
 
 p {
   color: #333;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-family: SofiaFont, nyt-imperial, georgia, "times new roman", times, serif;
 }
 
 button {
@@ -195,6 +195,10 @@ header {
 
 a h3 {
   display: inline;
+}
+
+.comments-from-feelings > img {
+  margin-top: 15px;
 }
 
 aside p {
@@ -662,6 +666,44 @@ aside .post {
   text-align: start;
   color: rgb(153, 153, 153);
   font-size: 0.75rem;
+}
+
+@font-face {
+  font-family: SofiaFont;
+  src: url(./Assets/Sofia-Regular.ttf);
+}
+
+.emoji-images {
+  height: 50px;
+  width: 50px;
+}
+
+.comments-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25vw;
+  margin-left: 25vw;
+  margin-bottom: 100px;
+}
+
+.submit-form-button {
+  margin-right: 25%;
+  margin-left: 25%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: rgb(50, 104, 145);
+  font-size: 1.1rem;
+  color: white;
+  border: none;
+}
+
+.comments-form > div {
+  margin-top: 20px;
+}
+
+.comments-form > input {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 footer {
