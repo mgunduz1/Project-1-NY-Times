@@ -80,6 +80,30 @@ nav div form {
   font-weight: 500;
 }
 
+aside p {
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 560;
+  color: #000;
+}
+
+.right-nav {
+  display: flex;
+}
+
+.right-nav > * { margin-right: 10px; }
+
+.right-nav > p {
+  margin-top: 4px;
+}
+
+.right-nav > p a {
+  text-decoration: none;
+  background-color: rgb(50, 104, 145);
+  padding: 4.2px;
+  color: white;
+}
+
 .buttons-and-logos div button {
   padding: 4px;
 }
@@ -195,13 +219,6 @@ header {
 
 a h3 {
   display: inline;
-}
-
-aside p {
-  text-align: left;
-  margin-bottom: 10px;
-  font-weight: 560;
-  color: #000;
 }
 
 .article-1 p {
@@ -744,11 +761,13 @@ footer {
   border-top: 1px rgba(0, 0, 0, 0.1) solid;
 }
 
-.special-footer-6 {
+.text-footer-6 {
   font-size: larger;
   font-weight: 700;
+  padding: 2px 0 6px 0;
+  color: #000;
 }
 
-.even-more-special {
-  padding-bottom: 10px;
+.logos-for-footer {
+  padding-top: 10px;
 }
